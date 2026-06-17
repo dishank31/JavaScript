@@ -25,3 +25,7 @@ console.log(typeof("Dishank"))
 console.log(typeof age)
 console.log(typeof undefined);  // undefined
 console.log(typeof null);       // object
+
+x = "The answer is" + 42
+y = 42 + " is the answer"
+z = "37" + 7
