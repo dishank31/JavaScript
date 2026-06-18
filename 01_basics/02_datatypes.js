@@ -49,3 +49,31 @@ const myFunction = function()
 
 console.log(typeof heros)
 console.log(typeof myFunction)  // For function the type is named as object function
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stacks - (Primitive),    Heaps - (Non-Primitive)
+// In stacks we pass by values or we use a copy of variable. (Changes in the value are done in copy of the variable)
+// In heaps we pass by reference or we give the original address where the value is stored. (Changes in the value are done in original address of the varible)
+
+let thisrepo = "JavaScript Learnings"
+
+let anotherRepo = thisrepo
+anotherRepo = "Porjects Using JS"
+
+console.log(thisrepo)
+console.log(anotherRepo);
+
+let UserOne = {
+    email: "dishank@gmail.com",
+    pass: "253yyGdsod"
+}
+
+let UserTwo = UserOne
+
+UserTwo.email = "reyna@yahoo.com"
+
+console.log(UserTwo.email)
+console.log((UserOne.email));
+
