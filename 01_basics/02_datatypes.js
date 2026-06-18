@@ -1,3 +1,9 @@
+// Primitive Datatypes: They store single value directly and are immutable.
+// These are of 7 types: Number, String, Boolean, BigInt, Symbol, null, undefined
+
+// Reference (non-primitive)
+// Arrays, Objects, Functions
+
 "use strict";       // treat all JS code as newer version
 
 // alert(3+3)  // we are using nodejs, not browser
@@ -26,6 +32,20 @@ console.log(typeof age)
 console.log(typeof undefined);  // undefined
 console.log(typeof null);       // object
 
-x = "The answer is" + 42
-y = 42 + " is the answer"
-z = "37" + 7
+const id = Symbol("123")    // Symbol is used to make the values unique
+const anotherId = Symbol("123")
+console.log(id === anotherId)
+
+const heros = ["shaktiman", "nagraaj", "doga"]
+let myObj = {
+    name: "Dishank",
+    age: "21",
+}
+
+const myFunction = function()
+{
+    console.log("Hello Word")
+}
+
+console.log(typeof heros)
+console.log(typeof myFunction)  // For function the type is named as object function
