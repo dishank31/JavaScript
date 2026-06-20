@@ -36,7 +36,7 @@ const id = Symbol("123")    // Symbol is used to make the values unique
 const anotherId = Symbol("123")
 console.log(id === anotherId)
 
-const heros = ["shaktiman", "nagraaj", "doga"]
+const heros = ["shaktiman", "nagraaj", "doga"]  // Array representation
 let myObj = {
     name: "Dishank",
     age: "21",
